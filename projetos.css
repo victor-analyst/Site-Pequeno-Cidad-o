@@ -1,0 +1,147 @@
+/* ======== estilos gerais ======== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======== cabeçalho ======== */
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* ======== navegação ======== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+nav a.ativo {
+    border-bottom: 2px solid #ffdd57;
+    padding-bottom: 3px;
+}
+
+/* ======== seções principais ======== */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* introdução */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    color: #0066cc;
+    font-size: 1.8em;
+}
+
+.intro p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* cada projeto */
+.projeto {
+    background-color: #fff;
+    border-left: 5px solid #0066cc;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.projeto h3 {
+    margin-top: 0;
+    color: #004c99;
+}
+
+.projeto p {
+    margin: 10px 0 0;
+}
+
+/* voluntariado e doações */
+.voluntariado, .doacoes {
+    background-color: #eaf4ff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.voluntariado h2, .doacoes h2 {
+    color: #004c99;
+}
+
+.doacoes img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ======== rodapé ======== */
+footer {
+    text-align: center;
+    background-color: #004c99;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* ======== responsividade ======== */
+@media (max-width: 700px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    .intro h2 {
+        font-size: 1.4em;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pequeno Cidadão — Apoio à Comunidade</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Fonte do Google (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navegação -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Pequeno Cidadão</a>
+
+      <!-- Navegação principal -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#voluntarie-se">Voluntarie-se</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão simples de doação (pode linkar para formulário) -->
+      <a class="btn btn-donate" href="#doe">Doe</a>
+
+      <!-- botão hamburger para telas pequenas -->
+      <button class="nav-toggle" aria-label="Abrir menu">≡</button>
+    </div>
+  </header>
+
+  <!-- HERO / Banner -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Pequeno Cidadão</h1>
+        <p>Fortalecendo crianças e famílias por meio de educação, cultura e lazer.</p>
+        <div class="hero-ctas">
+          <a class="btn" href="#projetos">Nossos Projetos</a>
+          <a class="btn btn-outline" href="#voluntarie-se">Seja Voluntário</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- imagem de exemplo: substitua pela sua -->
+        <img src="../images/crianca.jpg" alt="Atividades com crianças">
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <main>
+    <section id="projetos" class="projects container">
+      <h2>Nossos Projetos</h2>
+      <p class="lead">Programas educativos, oficinas e suporte às famílias da comunidade.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Oficinas de Leitura</h3>
+          <p>Oficinas semanais para estimular a leitura e a criatividade das crianças.</p>
+          <a class="card-link" href="#">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Reforço Escolar</h3>
+          <p>Atendimento com voluntários para apoiar nos estudos e tarefas escolares.</p>
+          <a class="card-link" href="#">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Eventos Comunitários</h3>
+          <p>Feiras, atividades culturais e encontros para fortalecer a rede local.</p>
+          <a class="card-link" href="#">Saiba mais</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Voluntariado / CTA -->
+    <section id="voluntarie-se" class="volunteer container">
+      <h2>Seja Voluntário</h2>
+      <p>Junte-se a nós: ofereça tempo, conhecimento ou recursos para transformar vidas.</p>
+      <a class="btn" href="#contato">Quero Ajudar</a>
+    </section>
+
+    <!-- Doações -->
+    <section id="doe" class="donate container">
+      <h2>Doe</h2>
+      <p>As doações ajudam a manter projetos ativos e cobrir necessidades básicas.</p>
+      <div class="donate-options">
+        <div class="donate-card">
+          <h3>R$ 20</h3>
+          <p>Material escolar para uma criança.</p>
+        </div>
+        <div class="donate-card">
+          <h3>R$ 50</h3>
+          <p>Atividades culturais para uma turma.</p>
+        </div>
+        <div class="donate-card">
+          <h3>Outro valor</h3>
+          <p>Faça uma contribuição personalizada.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact container">
+      <h2>Contato</h2>
+      <p>Tem perguntas? Quer sugerir parcerias? Entre em contato.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Nome
+          <input type="text" name="nome" required>
+        </label>
+        <label>
+          E-mail
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Mensagem
+          <textarea name="mensagem" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Pequeno Cidadão — Todos os direitos reservados</p>
+      <p class="small">Endereço: Sâo Paulo - Jundiaí · Telefone: (+55) 11 97356-9064</p>
+    </div>
+  </footer>
+
+  <!-- Script pequeno para inserir ano automaticamente e ativar nav toggle -->
+  <script>
+    // seta o ano no footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // pequena lógica para nav responsiva sem frameworks
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
