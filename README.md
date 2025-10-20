@@ -2,7 +2,7 @@
 
 Site institucional da ONG **Pequeno Cidadão**, dedicado a fortalecer crianças e famílias por meio de **educação, cultura e lazer**.
 
-![Banner Pequeno Cidadão](./images/crianca.jpg)  
+![Banner Pequeno Cidadão](crianca.jpg)  
 
 ---
 
