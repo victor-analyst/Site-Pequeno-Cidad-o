@@ -2,7 +2,8 @@
 
 Site institucional da ONG **Pequeno Cidadão**, dedicado a fortalecer crianças e famílias por meio de **educação, cultura e lazer**.
 
-![Banner Pequeno Cidadão](crianca.jpg)  
+![Banner Projetos](projetos.jpg)
+ 
 
 ---
 
@@ -23,7 +24,6 @@ O site é **responsivo**, moderno e fácil de navegar, desenvolvido com **HTML5,
 
 - **HTML5** – Estrutura semântica do site  
 - **CSS3** – Layout e estilos modernos  
-- **JavaScript** – Funcionalidades interativas (menu responsivo e ano automático)  
 - **Google Fonts (Inter)** – Tipografia elegante e legível  
 
 ---
