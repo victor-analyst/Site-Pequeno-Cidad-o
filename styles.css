@@ -151,3 +151,82 @@ body{
   .main-nav.open{display:block;background:white;padding:0.75rem;border-radius:8px;position:absolute;top:64px;right:16px;box-shadow:0 6px 18px rgba(15,23,42,0.08)}
   .main-nav ul{flex-direction:column;gap:0.5rem}
 }
+
+
+
+
+
+/* ==============================
+   MENU PRINCIPAL E DROPDOWN
+============================== */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #006666; /* azul do projeto */
+    font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+}
+
+/* Submenu inicialmente escondido */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu a {
+    color: #006666;
+}
+
+/* Mostrar submenu ao passar o mouse */
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+/* Estilo hover */
+.main-nav a:hover {
+    background-color: #006666;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ==============================
+   RESPONSIVIDADE
+============================== */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .has-submenu .submenu {
+        position: static;
+        display: none;
+    }
+
+    .has-submenu.open .submenu {
+        display: block;
+    }
+}

@@ -1,0 +1,29 @@
+/* DESIGN SYSTEM */
+
+/* Variáveis CSS */
+:root {
+  /* Cores (8 cores) */
+  --color-primary: #1E90FF;        /* Azul primário */
+  --color-secondary: #FF7F50;      /* Coral secundário */
+  --color-accent: #FFD700;         /* Amarelo de destaque */
+  --color-neutral-100: #FFFFFF;    /* Branco */
+  --color-neutral-200: #F5F5F5;    /* Cinza claro */
+  --color-neutral-300: #E0E0E0;    /* Cinza médio */
+  --color-neutral-400: #A0A0A0;    /* Cinza escuro */
+  --color-neutral-500: #333333;    /* Preto suave */
+
+  /* Tipografia (5 tamanhos de fonte) */
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 24px;
+  --font-xl: 32px;
+
+  /* Espaçamento modular */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+}

@@ -1,15 +1,20 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <link rel="stylesheet" href="css/base.css">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pequeno Cidadão — Apoio à Comunidade</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Fonte do Google (opcional) -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonte Google -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <!-- Header / Navegação -->
   <header class="site-header">
     <div class="container header-inner">
@@ -18,17 +23,27 @@
       <!-- Navegação principal -->
       <nav class="main-nav">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#voluntarie-se">Voluntarie-se</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="index.html">Início</a></li>
+
+          <!-- Item com submenu -->
+          <li class="has-submenu">
+            <a href="#">Projetos</a>
+            <ul class="submenu">
+              <li><a href="projetos.html">Educação</a></li>
+              <li><a href="projetos.html">Cultura</a></li>
+              <li><a href="projetos.html">Voluntariado</a></li>
+            </ul>
+          </li>
+
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
 
-      <!-- Botão simples de doação (pode linkar para formulário) -->
+      <!-- Botão de doação -->
       <a class="btn btn-donate" href="#doe">Doe</a>
 
-      <!-- botão hamburger para telas pequenas -->
+      <!-- Botão hamburger para mobile -->
       <button class="nav-toggle" aria-label="Abrir menu">≡</button>
     </div>
   </header>
@@ -45,7 +60,6 @@
         </div>
       </div>
       <div class="hero-image">
-        <!-- imagem de exemplo: substitua pela sua -->
         <img src="../images/crianca.jpg" alt="Atividades com crianças">
       </div>
     </div>
@@ -109,7 +123,6 @@
     <section id="contato" class="contact container">
       <h2>Contato</h2>
       <p>Tem perguntas? Quer sugerir parcerias? Entre em contato.</p>
-
       <form class="contact-form" action="#" method="post">
         <label>
           Nome
@@ -132,21 +145,31 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Pequeno Cidadão — Todos os direitos reservados</p>
-      <p class="small">Endereço: Sâo Paulo - Jundiaí · Telefone: (+55) 11 97356-9064</p>
+      <p class="small">Endereço: São Paulo - Jundiaí · Telefone: (+55) 11 97356-9064</p>
     </div>
   </footer>
 
-  <!-- Script pequeno para inserir ano automaticamente e ativar nav toggle -->
+  <!-- Scripts unificados -->
   <script>
     // seta o ano no footer
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // pequena lógica para nav responsiva sem frameworks
+    // nav responsiva
     const navToggle = document.querySelector('.nav-toggle');
     const nav = document.querySelector('.main-nav');
     navToggle.addEventListener('click', () => {
-      nav.classList.toggle('open');
+        nav.classList.toggle('open');
+    });
+
+    // submenu mobile
+    const submenuToggles = document.querySelectorAll('.has-submenu > a');
+    submenuToggles.forEach(link => {
+        link.addEventListener('click', e => {
+            e.preventDefault();
+            link.parentElement.classList.toggle('open');
+        });
     });
   </script>
+
 </body>
 </html>

@@ -145,3 +145,153 @@ footer {
         padding: 0 15px;
     }
 }
+
+/* ==============================
+   CARDS RESPONSIVOS PARA PROJETOS
+============================== */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #008080; /* azul do projeto */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px); /* 3 cards por linha */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.card-link {
+    display: inline-block;
+    padding: 8px 12px;
+   background-color: #008080; /* azul do projeto */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.card-link:hover {
+    background-color: #FF7F50; /* laranja mais claro */
+}
+
+/* ==============================
+   BREAKPOINTS RESPONSIVOS
+============================== */
+
+/* Tablets grandes / desktops médios */
+@media (max-width: 1024px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* 2 cards por linha */
+    }
+}
+
+/* Tablets pequenos / celulares grandes */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%; /* 1 card por linha */
+    }
+}
+
+
+
+
+/* ==============================
+   CARDS DOS PROJETOS
+============================== */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #006666; /* azul do projeto */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Link dentro do card */
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFD700; /* amarelo das badges */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* ==============================
+   BADGES / TAGS DE CATEGORIA
+============================== */
+.badges {
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #FFD700; /* amarelo das badges */
+    color: #006666;            /* azul do projeto */
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+/* ==============================
+   RESPONSIVIDADE
+============================== */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}

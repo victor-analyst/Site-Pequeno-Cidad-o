@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos - ONG Pequeno Cidadão</title>
+    <link rel="stylesheet" href="css/design-system.css">
     <link rel="stylesheet" href="styles.css">        <!-- CSS geral -->
     <link rel="stylesheet" href="css/projetos.css">  <!-- CSS específico da página -->
+    
 
 
 
@@ -24,33 +26,68 @@
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Nossos Projetos Sociais</h2>
-            <p>A ONG Pequeno Cidadão desenvolve ações voltadas à educação, cultura e cidadania, com o objetivo de oferecer novas oportunidades para crianças e adolescentes.</p>
-            <img src="images/projetos.jpg" alt="Crianças participando de atividades da ONG">
-        </section>
+    <!-- Seção Intro -->
+    <section class="intro">
+        <h2>Nossos Projetos Sociais</h2>
+        <p>A ONG Pequeno Cidadão desenvolve ações voltadas à educação, cultura e cidadania, com o objetivo de oferecer novas oportunidades para crianças e adolescentes.</p>
+        <img src="images/projetos.jpg" alt="Crianças participando de atividades da ONG">
+    </section>
 
-        <section class="projeto">
-            <h3>Projeto Educação para o Futuro</h3>
-            <p>Oferece reforço escolar e oficinas de leitura para alunos da rede pública, incentivando o aprendizado e o desenvolvimento pessoal.</p>
-        </section>
+    <!-- Seção de Cards com Badges -->
+    <section id="projetos" class="projects container">
+        <h2>Nossos Projetos</h2>
+        <p class="lead">Programas educativos, oficinas e suporte às famílias da comunidade.</p>
 
-        <section class="projeto">
-            <h3>Projeto Mãos Solidárias</h3>
-            <p>Promove campanhas de arrecadação de roupas, brinquedos e alimentos para famílias em situação de vulnerabilidade social.</p>
-        </section>
+        <div class="cards">
+            <!-- Card 1 -->
+            <article class="card">
+                <h3>Oficinas de Leitura</h3>
+                <div class="badges">
+                    <span class="badge">Educação</span>
+                    <span class="badge">Crianças</span>
+                </div>
+                <p>Oficinas semanais para estimular a leitura e a criatividade das crianças.</p>
+                <a class="card-link" href="#">Saiba mais</a>
+            </article>
 
-        <section class="voluntariado">
-            <h2>Como Ser Voluntário</h2>
-            <p>Você pode fazer parte da nossa equipe de voluntários e ajudar a transformar vidas! Basta preencher o formulário na página de <a href="cadastro.html">Cadastro</a>.</p>
-        </section>
+            <!-- Card 2 -->
+            <article class="card">
+                <h3>Reforço Escolar</h3>
+                <div class="badges">
+                    <span class="badge">Educação</span>
+                    <span class="badge">Voluntariado</span>
+                </div>
+                <p>Atendimento com voluntários para apoiar nos estudos e tarefas escolares.</p>
+                <a class="card-link" href="#">Saiba mais</a>
+            </article>
 
-        <section class="doacoes">
-            <h2>Como Ajudar com Doações</h2>
-            <p>Contribua com doações financeiras ou materiais. Toda ajuda é bem-vinda e faz diferença!</p>
-            <img src="images/doacoes.jpg" alt="Pessoas doando alimentos">
-        </section>
-    </main>
+            <!-- Card 3 -->
+            <article class="card">
+                <h3>Eventos Comunitários</h3>
+                <div class="badges">
+                    <span class="badge">Cultura</span>
+                    <span class="badge">Comunidade</span>
+                </div>
+                <p>Feiras, atividades culturais e encontros para fortalecer a rede local.</p>
+                <a class="card-link" href="#">Saiba mais</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Seção Voluntariado -->
+    <section class="voluntariado">
+        <h2>Como Ser Voluntário</h2>
+        <p>Você pode fazer parte da nossa equipe de voluntários e ajudar a transformar vidas! Basta preencher o formulário na página de <a href="cadastro.html">Cadastro</a>.</p>
+    </section>
+
+    <!-- Seção Doações -->
+    <section class="doacoes">
+        <h2>Como Ajudar com Doações</h2>
+        <p>Contribua com doações financeiras ou materiais. Toda ajuda é bem-vinda e faz diferença!</p>
+        <img src="images/doacoes.jpg" alt="Pessoas doando alimentos">
+    </section>
+</main>
+
 
     <footer>
         <p>&copy; 2025 ONG Pequeno Cidadão — Todos os direitos reservados.</p>
