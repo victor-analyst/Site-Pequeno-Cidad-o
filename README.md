@@ -9,7 +9,7 @@ Site institucional da ONG **Pequeno Cidadão**, dedicado a fortalecer crianças 
 # 📚             Projetos
   ![Banner Projetos](projetos.jpg)
 # 🤝            Página Inicial
- ![Banner Página Inicial](index.jpg)
+ ![Banner Página Inicial](images/crianca.jpg)
  
 # ✉️             Cadastros
 
