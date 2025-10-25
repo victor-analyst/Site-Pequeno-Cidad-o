@@ -1,0 +1,83 @@
+/* ===============================
+   BASE.CSS — Design System
+   =============================== */
+
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Variáveis */
+:root{
+  /* Cores (>=8) */
+  --cor-primaria: #4b3df7;
+  --cor-secundaria: #00c4a7;
+  --cor-terciaria: #ff8a00;
+  --cor-destaque: #ff3c7d;
+  --cor-sucesso: #4caf50;
+  --cor-alerta: #ffb400;
+  --cor-erro: #f44336;
+  --cor-info: #2196f3;
+
+  /* Neutros */
+  --cinza-100: #f5f5f5;
+  --cinza-200: #e9e9ee;
+  --cinza-300: #d6d6df;
+  --cinza-400: #bdbdbd;
+  --cinza-500: #616161;
+  --preto: #1a1a1a;
+  --branco: #ffffff;
+
+  /* Tipografia */
+  --fonte-principal: "Poppins", "Inter", "Segoe UI", Arial, sans-serif;
+  --fonte-secundaria: "Open Sans", sans-serif;
+
+  /* Hierarquia */
+  --texto-grande: 2.25rem;
+  --texto-medio: 1.5rem;
+  --texto-base: 1rem;
+  --texto-pequeno: 0.875rem;
+  --texto-mini: 0.75rem;
+
+  /* Espaçamentos (escala 8px) */
+  --esp-1: 8px;
+  --esp-2: 16px;
+  --esp-3: 24px;
+  --esp-4: 32px;
+  --esp-5: 48px;
+  --esp-6: 64px;
+
+  /* Grid */
+  --grid-gap: 24px;
+  --container-max: 1200px;
+
+  /* Outros */
+  --borda-radius: 12px;
+  --sombra-suave: 0 6px 18px rgba(23,23,23,0.08);
+}
+
+/* Global */
+html { scroll-behavior: smooth; font-family: var(--fonte-principal); font-size: var(--texto-base); }
+body { background: var(--cinza-100); color: var(--preto); line-height: 1.6; -webkit-font-smoothing:antialiased; }
+
+/* Links */
+a { color: var(--cor-primaria); text-decoration: none; transition: color .2s ease; }
+a:hover { color: var(--cor-secundaria); }
+
+/* Headings */
+h1{ font-size:var(--texto-grande); margin-bottom:var(--esp-2); }
+h2{ font-size:var(--texto-medio); margin-bottom:var(--esp-2); }
+h3{ font-size:1.125rem; margin-bottom:var(--esp-1); }
+
+/* Container */
+.container { width: 90%; max-width: var(--container-max); margin: 0 auto; padding: var(--esp-3) 0; }
+
+/* Utilities */
+.text-center{ text-align:center; }
+.lead{ color:var(--cinza-500); margin-bottom:var(--esp-2); }
+
+.mt-1{ margin-top:var(--esp-1); } .mt-2{ margin-top:var(--esp-2); } .mt-3{ margin-top:var(--esp-3); }
+.mb-1{ margin-bottom:var(--esp-1); } .mb-2{ margin-bottom:var(--esp-2); } .mb-3{ margin-bottom:var(--esp-3); }
+
+.p-1{ padding:var(--esp-1); } .p-2{ padding:var(--esp-2); } .p-3{ padding:var(--esp-3); }
+
+/* Small */
+.small{ font-size:0.85rem; color:var(--cinza-500); }
