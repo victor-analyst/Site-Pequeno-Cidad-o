@@ -14,7 +14,6 @@ Este projeto foi desenvolvido como parte de estudos de HTML, CSS e JavaScript, c
 🖼️ Imagens do Projeto
 ![Página Inicial](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/index.jpg)
 
-
 Cadastro de Crianças
 
 Projetos da ONG
