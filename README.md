@@ -18,7 +18,7 @@ Este projeto foi desenvolvido como parte de estudos de **HTML, CSS e JavaScript*
 
 ### Página Inicial
 
-![Página Inicial](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/index.jpg)
+![Página Inicial](images/siteindex.jpg)
 
 ### Cadastro de Crianças
 
