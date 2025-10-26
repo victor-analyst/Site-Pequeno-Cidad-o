@@ -1,123 +1,79 @@
-# 🌟 Pequeno Cidadão — Apoio à Comunidade
-
-
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/projeto-pequeno-cidadao?style=social)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/projeto-pequeno-cidadao?style=social)
-
-
-Site institucional da ONG **Pequeno Cidadão**, dedicado a fortalecer crianças e famílias por meio de **educação, cultura e lazer**.  
-# 📚             Projetos
-  ![Banner Projetos](images/crianca.jpg)
-
- 
-# ✉️             Cadastros
-
-![Banner Cadastros](cadastros.jpg)
----
-
-## 💡 Sobre o Projeto
-
-O **Pequeno Cidadão** é um projeto web moderno e responsivo que apresenta:
-
-- **📚 Projetos**: Oficinas de leitura, reforço escolar e eventos comunitários  
-- **🤝 Voluntariado**: Incentivo à participação de voluntários  
-- **💰 Doações**: Opções de contribuição para apoiar os projetos  
-- **✉️ Contato**: Formulário para dúvidas, sugestões e parcerias  
-
-O site foi desenvolvido com **HTML5, CSS3 e JavaScript puro**, focando em **acessibilidade, responsividade e design moderno**.
-
----
-
-## 🛠 Tecnologias
+# 🧒 Pequeno Cidadão — Apoio à Comunidade
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+Site institucional da ONG **Pequeno Cidadão**, dedicado a fortalecer crianças e famílias por meio de educação, cultura e cidadania.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📌 Objetivo do Projeto
 
-projeto-pequeno-cidadao/
----
-│
-├─ index.html # Página principal
----
-├─ styles.css # Estilos do site
----
-├─ /images # Imagens usadas no site
----
-
+Este projeto foi desenvolvido como parte de estudos de **HTML, CSS e JavaScript**, criando uma página institucional funcional e visualmente atraente para a ONG Pequeno Cidadão.
 
 ---
 
-## 🚀 Como Executar
+## 🖼️ Imagens do Projeto
 
-1. Clone o repositório:  
+### Página Inicial
+
+![Página Inicial](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/index.jpg)
+
+### Cadastro de Crianças
+
+![Cadastro de Crianças](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/cadastros.jpg)
+
+### Projetos da ONG
+
+![Projetos da ONG](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/projetos.jpg)
+
+### Doações
+
+![Doações](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/doacoes.jpg)
+
+### Demonstração do Site
+
+![Visualização do Site](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/demo.gif)
+
+---
+
+
+## 🧰 Tecnologias Utilizadas
+
+- **HTML5**: Estrutura semântica das páginas.  
+- **CSS3**: Estilos responsivos e modernos.  
+- **JavaScript**: Interatividade básica.
+
+---
+
+## 🚀 Como Visualizar o Projeto
+
+1. Clone este repositório:
+
 ```bash
-git clone https://github.com/seu-usuario/projeto-pequeno-cidadao.git
-Entre na pasta do projeto:
+git clone https://github.com/victor-analyst/Site-Pequeno-Cidad-o.git
+Abra index.html em seu navegador.
 
-bash
-Copiar código
-cd projeto-pequeno-cidadao
-Abra index.html no navegador:
+🤝 Como Contribuir
+Faça um fork deste repositório.
 
-bash
-Copiar código
-start index.html  # Windows
-open index.html   # Mac
-xdg-open index.html # Linux
-💡 Dica: Você pode publicar este projeto no GitHub Pages para ter um site online grátis!
+Crie uma branch: git checkout -b minha-contribuicao.
 
-✨ Funcionalidades
-✅ Menu de navegação fixo e responsivo
+Faça suas alterações e commit: git commit -m "Minha contribuição".
 
-✅ Seção de projetos com cards informativos
+Envie para seu fork: git push origin minha-contribuicao.
 
-✅ Formulário de contato (necessita backend para envio real)
-
-✅ Botões de voluntariado e doação
-
-✅ Rodapé com ano atualizado automaticamente
-
-🎨 Personalização
-Substitua as imagens na pasta /images para adequar ao seu conteúdo
-
-Altere textos, cores e links conforme a necessidade da ONG
-
-Ajuste estilos no styles.css para mudar fontes, cores e layout
-
-📢 Contribuição
-Contribuições são bem-vindas!
-
-Fork o repositório
-
-Crie uma branch para sua feature:
-
-bash
-Copiar código
-git checkout -b minha-feature
-Commit suas alterações:
-
-bash
-Copiar código
-git commit -m "Minha contribuição"
-Push para a branch:
-
-bash
-Copiar código
-git push origin minha-feature
-Abra um Pull Request 🚀
+Abra um Pull Request no repositório principal.
 
 📄 Licença
-Este projeto está licenciado sob a MIT License.
-Veja o arquivo LICENSE para mais detalhes.
+MIT License
 
+📬 Contato
+Entre em contato com a ONG Pequeno Cidadão:
+E-mail: contato@pequenocidadao.org
+Site: consulte a seção de contato no rodapé do site.
 
-Feito com ❤️ por [Victor Lima]
-Push para a branch: git push origin minha-feature
-
-Abra um Pull Request
+pgsql
+Copiar código
 
