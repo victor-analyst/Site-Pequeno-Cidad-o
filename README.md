@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como parte de estudos de **HTML, CSS e JavaScript*
 ![Visualização do Site](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/demo.gif)
 
 ---
-![Visualização do Site](index.jpg)
+
 
 ## 🧰 Tecnologias Utilizadas
 
