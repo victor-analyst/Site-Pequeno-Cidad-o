@@ -12,7 +12,8 @@ Site institucional da ONG Pequeno Cidadão, dedicado a fortalecer crianças e fa
 Este projeto foi desenvolvido como parte de estudos de HTML, CSS e JavaScript, criando uma página institucional funcional e visualmente atraente para a ONG Pequeno Cidadão.
 
 🖼️ Imagens do Projeto
-Página Inicial
+![Página Inicial](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/index.jpg)
+
 
 Cadastro de Crianças
 
