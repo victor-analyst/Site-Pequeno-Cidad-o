@@ -29,9 +29,6 @@ Este projeto foi desenvolvido como parte de estudos de **HTML, CSS e JavaScript*
 
 ![Doações](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/doacoes.jpg)
 
-### Demonstração do Site
-
-![Visualização do Site](https://raw.githubusercontent.com/victor-analyst/Site-Pequeno-Cidad-o/main/images/demo.gif)
 
 ---
 
